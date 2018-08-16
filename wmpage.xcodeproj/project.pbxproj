@@ -1,0 +1,688 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		366B5DF637F92B4EEC506C48 /* libPods-wmpageUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B7F37132844B31910136F19 /* libPods-wmpageUITests.a */; };
+		6498BD68733F1FFAAB5FAF74 /* libPods-wmpageTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 28FA4C50A2E8E0BC3F832940 /* libPods-wmpageTests.a */; };
+		6E59ADC89D7011C58DA7473C /* libPods-wmpage.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A42EE37FA518FE65995FF31B /* libPods-wmpage.a */; };
+		E131A86521240D5F0016F844 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E131A86421240D5F0016F844 /* AppDelegate.m */; };
+		E131A86821240D600016F844 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E131A86721240D600016F844 /* ViewController.m */; };
+		E131A86B21240D600016F844 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E131A86921240D600016F844 /* Main.storyboard */; };
+		E131A86D21240D630016F844 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E131A86C21240D630016F844 /* Assets.xcassets */; };
+		E131A87021240D630016F844 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E131A86E21240D630016F844 /* LaunchScreen.storyboard */; };
+		E131A87321240D630016F844 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E131A87221240D630016F844 /* main.m */; };
+		E131A87D21240D630016F844 /* wmpageTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E131A87C21240D630016F844 /* wmpageTests.m */; };
+		E131A88821240D630016F844 /* wmpageUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E131A88721240D630016F844 /* wmpageUITests.m */; };
+		E131A89721240DD00016F844 /* DPTabbarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E131A89621240DD00016F844 /* DPTabbarViewController.m */; };
+		E131A89A21240DFF0016F844 /* DPNavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E131A89921240DFF0016F844 /* DPNavigationViewController.m */; };
+		E131A89D21240EA40016F844 /* DPOneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E131A89C21240EA40016F844 /* DPOneViewController.m */; };
+		E131A8A021240F000016F844 /* DPTwoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E131A89F21240F000016F844 /* DPTwoViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E131A87921240D630016F844 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E131A85821240D5F0016F844 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E131A85F21240D5F0016F844;
+			remoteInfo = wmpage;
+		};
+		E131A88421240D630016F844 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E131A85821240D5F0016F844 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E131A85F21240D5F0016F844;
+			remoteInfo = wmpage;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		03DC7E7E791C398AC2BDE079 /* Pods-wmpageUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-wmpageUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-wmpageUITests/Pods-wmpageUITests.release.xcconfig"; sourceTree = "<group>"; };
+		1B7F37132844B31910136F19 /* libPods-wmpageUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-wmpageUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		24A7EA6DDC52A02780482782 /* Pods-wmpage.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-wmpage.debug.xcconfig"; path = "Pods/Target Support Files/Pods-wmpage/Pods-wmpage.debug.xcconfig"; sourceTree = "<group>"; };
+		28FA4C50A2E8E0BC3F832940 /* libPods-wmpageTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-wmpageTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		905DAC5FED1F88500B781BE9 /* Pods-wmpageTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-wmpageTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-wmpageTests/Pods-wmpageTests.debug.xcconfig"; sourceTree = "<group>"; };
+		A42EE37FA518FE65995FF31B /* libPods-wmpage.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-wmpage.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0B4FF5152AB91D8B83E0941 /* Pods-wmpage.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-wmpage.release.xcconfig"; path = "Pods/Target Support Files/Pods-wmpage/Pods-wmpage.release.xcconfig"; sourceTree = "<group>"; };
+		D490D57F8C6F79FCADC2FDE3 /* Pods-wmpageUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-wmpageUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-wmpageUITests/Pods-wmpageUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		E131A86021240D5F0016F844 /* wmpage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = wmpage.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E131A86321240D5F0016F844 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E131A86421240D5F0016F844 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E131A86621240D600016F844 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		E131A86721240D600016F844 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		E131A86A21240D600016F844 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E131A86C21240D630016F844 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E131A86F21240D630016F844 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E131A87121240D630016F844 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E131A87221240D630016F844 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E131A87821240D630016F844 /* wmpageTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = wmpageTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E131A87C21240D630016F844 /* wmpageTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = wmpageTests.m; sourceTree = "<group>"; };
+		E131A87E21240D630016F844 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E131A88321240D630016F844 /* wmpageUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = wmpageUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E131A88721240D630016F844 /* wmpageUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = wmpageUITests.m; sourceTree = "<group>"; };
+		E131A88921240D630016F844 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E131A89521240DD00016F844 /* DPTabbarViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DPTabbarViewController.h; sourceTree = "<group>"; };
+		E131A89621240DD00016F844 /* DPTabbarViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DPTabbarViewController.m; sourceTree = "<group>"; };
+		E131A89821240DFF0016F844 /* DPNavigationViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DPNavigationViewController.h; sourceTree = "<group>"; };
+		E131A89921240DFF0016F844 /* DPNavigationViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DPNavigationViewController.m; sourceTree = "<group>"; };
+		E131A89B21240EA40016F844 /* DPOneViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DPOneViewController.h; sourceTree = "<group>"; };
+		E131A89C21240EA40016F844 /* DPOneViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DPOneViewController.m; sourceTree = "<group>"; };
+		E131A89E21240F000016F844 /* DPTwoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DPTwoViewController.h; sourceTree = "<group>"; };
+		E131A89F21240F000016F844 /* DPTwoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DPTwoViewController.m; sourceTree = "<group>"; };
+		ED5D12950DD2E20B51A745F3 /* Pods-wmpageTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-wmpageTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-wmpageTests/Pods-wmpageTests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E131A85D21240D5F0016F844 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E59ADC89D7011C58DA7473C /* libPods-wmpage.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E131A87521240D630016F844 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6498BD68733F1FFAAB5FAF74 /* libPods-wmpageTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E131A88021240D630016F844 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				366B5DF637F92B4EEC506C48 /* libPods-wmpageUITests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5009CBE028514A61711BE016 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A42EE37FA518FE65995FF31B /* libPods-wmpage.a */,
+				28FA4C50A2E8E0BC3F832940 /* libPods-wmpageTests.a */,
+				1B7F37132844B31910136F19 /* libPods-wmpageUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E131A85721240D5F0016F844 = {
+			isa = PBXGroup;
+			children = (
+				E131A86221240D5F0016F844 /* wmpage */,
+				E131A87B21240D630016F844 /* wmpageTests */,
+				E131A88621240D630016F844 /* wmpageUITests */,
+				E131A86121240D5F0016F844 /* Products */,
+				E7EE5CCE4634C2D3D24C0855 /* Pods */,
+				5009CBE028514A61711BE016 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		E131A86121240D5F0016F844 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E131A86021240D5F0016F844 /* wmpage.app */,
+				E131A87821240D630016F844 /* wmpageTests.xctest */,
+				E131A88321240D630016F844 /* wmpageUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E131A86221240D5F0016F844 /* wmpage */ = {
+			isa = PBXGroup;
+			children = (
+				E131A86321240D5F0016F844 /* AppDelegate.h */,
+				E131A86421240D5F0016F844 /* AppDelegate.m */,
+				E131A86621240D600016F844 /* ViewController.h */,
+				E131A86721240D600016F844 /* ViewController.m */,
+				E131A86921240D600016F844 /* Main.storyboard */,
+				E131A86C21240D630016F844 /* Assets.xcassets */,
+				E131A86E21240D630016F844 /* LaunchScreen.storyboard */,
+				E131A87121240D630016F844 /* Info.plist */,
+				E131A87221240D630016F844 /* main.m */,
+				E131A89521240DD00016F844 /* DPTabbarViewController.h */,
+				E131A89621240DD00016F844 /* DPTabbarViewController.m */,
+				E131A89821240DFF0016F844 /* DPNavigationViewController.h */,
+				E131A89921240DFF0016F844 /* DPNavigationViewController.m */,
+				E131A89B21240EA40016F844 /* DPOneViewController.h */,
+				E131A89C21240EA40016F844 /* DPOneViewController.m */,
+				E131A89E21240F000016F844 /* DPTwoViewController.h */,
+				E131A89F21240F000016F844 /* DPTwoViewController.m */,
+			);
+			path = wmpage;
+			sourceTree = "<group>";
+		};
+		E131A87B21240D630016F844 /* wmpageTests */ = {
+			isa = PBXGroup;
+			children = (
+				E131A87C21240D630016F844 /* wmpageTests.m */,
+				E131A87E21240D630016F844 /* Info.plist */,
+			);
+			path = wmpageTests;
+			sourceTree = "<group>";
+		};
+		E131A88621240D630016F844 /* wmpageUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E131A88721240D630016F844 /* wmpageUITests.m */,
+				E131A88921240D630016F844 /* Info.plist */,
+			);
+			path = wmpageUITests;
+			sourceTree = "<group>";
+		};
+		E7EE5CCE4634C2D3D24C0855 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				24A7EA6DDC52A02780482782 /* Pods-wmpage.debug.xcconfig */,
+				D0B4FF5152AB91D8B83E0941 /* Pods-wmpage.release.xcconfig */,
+				905DAC5FED1F88500B781BE9 /* Pods-wmpageTests.debug.xcconfig */,
+				ED5D12950DD2E20B51A745F3 /* Pods-wmpageTests.release.xcconfig */,
+				D490D57F8C6F79FCADC2FDE3 /* Pods-wmpageUITests.debug.xcconfig */,
+				03DC7E7E791C398AC2BDE079 /* Pods-wmpageUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E131A85F21240D5F0016F844 /* wmpage */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E131A88C21240D630016F844 /* Build configuration list for PBXNativeTarget "wmpage" */;
+			buildPhases = (
+				BEA132DD213B60F418A9DD91 /* [CP] Check Pods Manifest.lock */,
+				E131A85C21240D5F0016F844 /* Sources */,
+				E131A85D21240D5F0016F844 /* Frameworks */,
+				E131A85E21240D5F0016F844 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = wmpage;
+			productName = wmpage;
+			productReference = E131A86021240D5F0016F844 /* wmpage.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E131A87721240D630016F844 /* wmpageTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E131A88F21240D630016F844 /* Build configuration list for PBXNativeTarget "wmpageTests" */;
+			buildPhases = (
+				FE31D99A2BFE6A34CCA105BE /* [CP] Check Pods Manifest.lock */,
+				E131A87421240D630016F844 /* Sources */,
+				E131A87521240D630016F844 /* Frameworks */,
+				E131A87621240D630016F844 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E131A87A21240D630016F844 /* PBXTargetDependency */,
+			);
+			name = wmpageTests;
+			productName = wmpageTests;
+			productReference = E131A87821240D630016F844 /* wmpageTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E131A88221240D630016F844 /* wmpageUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E131A89221240D630016F844 /* Build configuration list for PBXNativeTarget "wmpageUITests" */;
+			buildPhases = (
+				7FD27446D895F626058BFB41 /* [CP] Check Pods Manifest.lock */,
+				E131A87F21240D630016F844 /* Sources */,
+				E131A88021240D630016F844 /* Frameworks */,
+				E131A88121240D630016F844 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E131A88521240D630016F844 /* PBXTargetDependency */,
+			);
+			name = wmpageUITests;
+			productName = wmpageUITests;
+			productReference = E131A88321240D630016F844 /* wmpageUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E131A85821240D5F0016F844 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = dapeng;
+				TargetAttributes = {
+					E131A85F21240D5F0016F844 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					E131A87721240D630016F844 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = E131A85F21240D5F0016F844;
+					};
+					E131A88221240D630016F844 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = E131A85F21240D5F0016F844;
+					};
+				};
+			};
+			buildConfigurationList = E131A85B21240D5F0016F844 /* Build configuration list for PBXProject "wmpage" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E131A85721240D5F0016F844;
+			productRefGroup = E131A86121240D5F0016F844 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E131A85F21240D5F0016F844 /* wmpage */,
+				E131A87721240D630016F844 /* wmpageTests */,
+				E131A88221240D630016F844 /* wmpageUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E131A85E21240D5F0016F844 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E131A87021240D630016F844 /* LaunchScreen.storyboard in Resources */,
+				E131A86D21240D630016F844 /* Assets.xcassets in Resources */,
+				E131A86B21240D600016F844 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E131A87621240D630016F844 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E131A88121240D630016F844 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7FD27446D895F626058BFB41 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-wmpageUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BEA132DD213B60F418A9DD91 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-wmpage-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FE31D99A2BFE6A34CCA105BE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-wmpageTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E131A85C21240D5F0016F844 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E131A86821240D600016F844 /* ViewController.m in Sources */,
+				E131A8A021240F000016F844 /* DPTwoViewController.m in Sources */,
+				E131A87321240D630016F844 /* main.m in Sources */,
+				E131A89A21240DFF0016F844 /* DPNavigationViewController.m in Sources */,
+				E131A89D21240EA40016F844 /* DPOneViewController.m in Sources */,
+				E131A89721240DD00016F844 /* DPTabbarViewController.m in Sources */,
+				E131A86521240D5F0016F844 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E131A87421240D630016F844 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E131A87D21240D630016F844 /* wmpageTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E131A87F21240D630016F844 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E131A88821240D630016F844 /* wmpageUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E131A87A21240D630016F844 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E131A85F21240D5F0016F844 /* wmpage */;
+			targetProxy = E131A87921240D630016F844 /* PBXContainerItemProxy */;
+		};
+		E131A88521240D630016F844 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E131A85F21240D5F0016F844 /* wmpage */;
+			targetProxy = E131A88421240D630016F844 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E131A86921240D600016F844 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E131A86A21240D600016F844 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E131A86E21240D630016F844 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E131A86F21240D630016F844 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E131A88A21240D630016F844 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E131A88B21240D630016F844 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E131A88D21240D630016F844 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 24A7EA6DDC52A02780482782 /* Pods-wmpage.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SXQ8357Y2U;
+				INFOPLIST_FILE = wmpage/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = iden.wmpage;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E131A88E21240D630016F844 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D0B4FF5152AB91D8B83E0941 /* Pods-wmpage.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SXQ8357Y2U;
+				INFOPLIST_FILE = wmpage/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = iden.wmpage;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E131A89021240D630016F844 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 905DAC5FED1F88500B781BE9 /* Pods-wmpageTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = wmpageTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = iden.wmpageTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/wmpage.app/wmpage";
+			};
+			name = Debug;
+		};
+		E131A89121240D630016F844 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ED5D12950DD2E20B51A745F3 /* Pods-wmpageTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = wmpageTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = iden.wmpageTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/wmpage.app/wmpage";
+			};
+			name = Release;
+		};
+		E131A89321240D630016F844 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D490D57F8C6F79FCADC2FDE3 /* Pods-wmpageUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = wmpageUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = iden.wmpageUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = wmpage;
+			};
+			name = Debug;
+		};
+		E131A89421240D630016F844 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 03DC7E7E791C398AC2BDE079 /* Pods-wmpageUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = wmpageUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = iden.wmpageUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = wmpage;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E131A85B21240D5F0016F844 /* Build configuration list for PBXProject "wmpage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E131A88A21240D630016F844 /* Debug */,
+				E131A88B21240D630016F844 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E131A88C21240D630016F844 /* Build configuration list for PBXNativeTarget "wmpage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E131A88D21240D630016F844 /* Debug */,
+				E131A88E21240D630016F844 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E131A88F21240D630016F844 /* Build configuration list for PBXNativeTarget "wmpageTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E131A89021240D630016F844 /* Debug */,
+				E131A89121240D630016F844 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E131A89221240D630016F844 /* Build configuration list for PBXNativeTarget "wmpageUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E131A89321240D630016F844 /* Debug */,
+				E131A89421240D630016F844 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E131A85821240D5F0016F844 /* Project object */;
+}
