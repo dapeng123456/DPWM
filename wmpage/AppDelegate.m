@@ -7,8 +7,9 @@
 //
 
 #import "AppDelegate.h"
-
+#import "DPTabbarViewController.h"
 @interface AppDelegate ()
+@property (nonatomic, strong) DPTabbarViewController *tabbarViewControler;
 
 @end
 
@@ -16,6 +17,11 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+    self.tabbarViewControler = [[DPTabbarViewController alloc]init];
+    self.window.rootViewController = self.tabbarViewControler;
+    [self.window makeKeyAndVisible];
+    
+    
     // Override point for customization after application launch.
     return YES;
 }
