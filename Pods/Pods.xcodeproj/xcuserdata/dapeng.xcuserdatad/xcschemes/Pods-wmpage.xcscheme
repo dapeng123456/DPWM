@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "69FB0CFB8AB5D881F2FF0612E0E0293F"
+               BlueprintIdentifier = "EF83A288AD297FE1DA0E8EA8E7C8F564"
                BlueprintName = "Pods-wmpage"
                ReferencedContainer = "container:Pods.xcodeproj"
                BuildableName = "libPods-wmpage.a">

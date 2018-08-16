@@ -17,4 +17,8 @@ target 'wmpage' do
     # Pods for testing
   end
 
+  #经典四库
+  pod 'Masonry'
+  pod 'AFNetworking'
+
 end
