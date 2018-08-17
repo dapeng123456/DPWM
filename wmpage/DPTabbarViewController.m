@@ -14,17 +14,24 @@
 @interface DPTabbarViewController ()
 @property (nonatomic, strong) DPOneViewController  *oneViewController;
 @property (nonatomic, strong) DPTwoViewController  *twoViewController;
-
+@property (nonatomic, strong) DPNavigationViewController *navigationViewController;
 @end
 
 @implementation DPTabbarViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    NSMutableArray *arrayViewContollers = [[NSMutableArray alloc]init];
     self.oneViewController = [[DPOneViewController alloc]init];
-    
+    self.navigationViewController = [[DPNavigationViewController alloc] initWithRootViewController:self.oneViewController];
+    [arrayViewContollers addObject:self.navigationViewController];
     
     self.twoViewController = [[DPTwoViewController alloc]init];
+    self.navigationViewController = [[DPNavigationViewController alloc]initWithRootViewController:self.twoViewController];
+    [arrayViewContollers addObject:self.twoViewController];
+    
+    self.viewControllers = arrayViewContollers;
+    
     
     
     // Do any additional setup after loading the view.

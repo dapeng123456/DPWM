@@ -8,14 +8,20 @@
 
 #import "DPTwoViewController.h"
 
-@interface DPTwoViewController ()
-
+@interface DPTwoViewController ()<UITableViewDelegate,UITableViewDataSource>
+@property (nonatomic, strong) UITableView  *tableView;
 @end
 
 @implementation DPTwoViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    self.view.backgroundColor = [UIColor greenColor];
+    
+    self.tableView = [[UITableView alloc]init];
+    
+    
+    
     // Do any additional setup after loading the view.
 }
 
